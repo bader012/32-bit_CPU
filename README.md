@@ -15,7 +15,8 @@ In this project, we designed a 32-bit RISC processor with eight 32-bit general-p
 **J-type format:**
 5-bit opcode (Op) and11-bit Immediate (imm).
 
-| Instruction | Meaning                              | Encoding |       |      |      |       | 
+
+| Instruction | Meaning                              | Encoding                               | 
 |-------------|--------------------------------------|----------|-------|------|------|-------| 
 | AND         | Rd = Rs & Rt                         | Op = 0   | s     | t    | d    | f = 0 | 
 | CAND        | Rd = ~Rs & Rt (Complement Rs, AND)   | Op = 0   | s     | t    | d    | f = 1 | 
