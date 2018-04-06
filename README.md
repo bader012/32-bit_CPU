@@ -19,7 +19,7 @@ In this project, we designed a 32-bit RISC processor with eight 32-bit general-p
 |-------------|--------------------------------------|----------|-------|------|------|-------| 
 | AND         | Rd = Rs & Rt                         | Op = 0   | s     | t    | d    | f = 0 | 
 | CAND        | Rd = ~Rs & Rt (Complement Rs, AND)   | Op = 0   | s     | t    | d    | f = 1 | 
-| OR          | Rd = Rs | Rt                         | Op = 0   | s     | t    | d    | f = 2 | 
+| OR          | Rd = Rs OR Rt                         | Op = 0   | s     | t    | d    | f = 2 | 
 | XOR         | Rd = Rs ^ Rt                         | Op = 0   | s     | t    | d    | f = 3 | 
 | ADD         | Rd = Rs + Rt                         | Op = 1   | s     | t    | d    | f = 0 | 
 | NADD        | Rd = –Rs + Rt (Negate Rs, ADD)       | Op = 1   | s     | t    | d    | f = 1 | 
