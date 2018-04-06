@@ -27,7 +27,7 @@ In this project, we designed a 32-bit RISC processor with eight 32-bit general-p
 | SLTU        | Rd = Rs unsigned< Rt                 | Op = 1   | s     | t    | d    | f = 3 | 
 | ANDI        | Rt = Rs & sign_extend(Imm5)          | Op = 4   | s     | t    | Imm5 |       | 
 | CANDI       | Rt = ~Rs & sign_extend(Imm5)         | Op = 5   | s     | t    | Imm5 |       | 
-| ORI         | Rt = Rs | sign_extend(Imm5)          | Op = 6   | s     | t    | Imm5 |       | 
+| ORI         | Rt = Rs OR sign_extend(Imm5)          | Op = 6   | s     | t    | Imm5 |       | 
 | XORI        | Rt = Rs ^ sign_extend(Imm5)          | Op = 7   | s     | t    | Imm5 |       | 
 | ADDI        | Rt = Rs + sign_extend(Imm5)          | Op = 8   | s     | t    | Imm5 |       | 
 | NADDI       | Rt = –Rs + sign_extend(Imm5)         | Op = 9   | s     | t    | Imm5 |       | 
